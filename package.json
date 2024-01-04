@@ -17,8 +17,8 @@
     "watch": "webpack --watch --mode development",
     "build:dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "if [ -f dist ]; then zcli apps:server dist; else echo 'TODO\n Run command \"yarn build\"'; fi\n",
-    "upload": "if [ -f dist ]; then zcli apps:create dist; else echo 'TODO\n Run command \"yarn build\"'; fi\n",
+    "start": "if [ -d dist ]; then zcli apps:server dist; else echo 'TODO\n Run command \"yarn build\"'; fi\n",
+    "upload": "if [ -d dist ]; then zcli apps:create dist; else echo 'TODO\n Run command \"yarn build\"'; fi\n",
     "validate": "zcli apps:validate dist",
     "update": "zcli apps:update dist",
     "package": "zcli apps:package dist"

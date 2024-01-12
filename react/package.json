@@ -22,6 +22,7 @@
     "validate": "zcli apps:validate dist",
     "update": "zcli apps:update dist",
     "package": "zcli apps:package dist"
+    "user": "zcli profiles:use"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",

@@ -18,7 +18,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist/assets'),
   },
   resolve: {
-    extensions: ['.js', '.jsx', 'json'],
+    extensions: ['.js', '.jsx', '.json'],
   },
   module: {
     rules: [

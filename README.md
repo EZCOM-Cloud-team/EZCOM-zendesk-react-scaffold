@@ -1,3 +1,5 @@
+‼️‼️ **현재 scaffold repository 코드는 직접적으로 반영되지 않습니다. 코드 수정사항이 발생한다면, 문민수 팀원에게 문의해주시면 감사하겠습니다.**
+
 _Use of this software is subject to important terms and conditions as set forth in the License file_
 
 # React App Scaffold

@@ -1,0 +1,25 @@
+{
+  "name": "create-zendesk-react-app",
+  "version": "1.0.5",
+  "description": "zendesk app with react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack -w"
+  },
+  "bin": {
+    "create-zendesk-react-app": "./bin/generate-app.js"
+  },
+  "keywords": [
+    "react",
+    "boilerplate",
+    "zendesk",
+    "zendesk-side-app"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moonchop/zendesk-react-scaffold.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -21,7 +21,7 @@
     "upload": "if [ -d dist ]; then zcli apps:create dist; else echo 'TODO\n Run command \"yarn build\"'; fi\n",
     "validate": "zcli apps:validate dist",
     "update": "zcli apps:update dist",
-    "package": "zcli apps:package dist"
+    "package": "zcli apps:package dist",
     "user": "zcli profiles:use"
   },
   "devDependencies": {

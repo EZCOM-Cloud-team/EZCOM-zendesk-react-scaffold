@@ -30,29 +30,29 @@ Zendesk 인스턴스에서 `?zcli_apps=true`로 앱을 제공하려면 환경에
 1. 새 터미널을 열고 다음 명령을 실행합니다:
 
 ```
-pnpm run dev
+pnpm dev
 ```
 
 2. `app_scaffolds/packages/react` 디렉터리에서 또 다른 터미널을 열고 다음 명령을 실행합니다:
 
 ```
-pnpm run start
+pnpm start
 ```
 
-> **Note:** 참고: `pnpm run dev` 명령은 Hot Module Replacement (HMR)를 활성화하여 페이지를 수동으로 새로고침하지 않고도 코드 변경 사항을 즉시 확인할 수 있습니다. 이는 개발 경험을 크게 향상시킵니다.
+> **Note:** 참고: `pnpm dev` 명령은 Hot Module Replacement (HMR)를 활성화하여 페이지를 수동으로 새로고침하지 않고도 코드 변경 사항을 즉시 확인할 수 있습니다. 이는 개발 경험을 크게 향상시킵니다.
 
 #### Production Environment
 
 1.새 터미널을 열고 다음 명령을 실행합니다:
 
 ```
-pnpm run build
+pnpm build
 ```
 
 2. `app_scaffolds/packages/react` 디렉터리에서 또 다른 터미널을 열고 다음 명령을 실행합니다:
 
 ```
-pnpm run start:prod
+pnpm start
 ```
 
 ## But why?
@@ -155,7 +155,7 @@ myParameter: 'some value!'
 App Scaffold는 현재 [Vitetest](https://vitest.dev/)로 테스트할 수 있도록 설정되어 있습니다. 사양을 실행하려면 새 터미널을 열고 실행합니다
 
 ```
-pnpm run test
+pnpm test
 ```
 
 Specs은 'spec' 디렉토리 아래에 있습니다.
@@ -165,31 +165,31 @@ Specs은 'spec' 디렉토리 아래에 있습니다.
 앱이 서버 측 검증 검사를 통과하는지 확인하려면 아래와 같이 입력합니다.
 
 ```
-pnpm run validate
+pnpm validate
 ```
 
 검증에 성공하면 아래와 같이 입력하여 Zendesk 계정에 앱을 업로드할 수 있습니다
 
 ```
-pnpm run create
+pnpm create
 ```
 
 계정에 앱이 생성된 후 업데이트하려면 아래와 같이 입력합니다.
 
 ```
-pnpm run update
+pnpm update
 ```
 
 또는 수동 업로드를 위한 Zip 아카이브를 만들려면 아래와 같이 입력합니다.
 
 ```
-pnpm run package
+pnpm package
 ```
 
 로그인된 ZCLI 사용자를 바꾸려면 아래와 같이 입력합니다.
 
 ```
-pnpm run user {userEmail}
+pnpm user {userEmail}
 ```
 
 

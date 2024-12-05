@@ -1,9 +1,9 @@
 {
-  "name": "React JS Scaffold",
+  "name": "App Name",
   "author": {
-    "name": "Jhon Doe",
-    "email": "support@zendesk.com",
-    "url": "https://www.zendesk.com"
+    "name": "EZCOM_ZENDESK",
+    "email": "zendesk@ezcom.co.kr",
+    "url": "https://www.ezcom.co.kr"
   },
   "defaultLocale": "en",
   "private": true,
